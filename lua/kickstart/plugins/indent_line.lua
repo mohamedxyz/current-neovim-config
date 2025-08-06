@@ -5,5 +5,7 @@ return {
     -- See `:help ibl`
     main = 'ibl',
     opts = {},
+    event = 'BufEnter',
+    lazy = true,
   },
 }
